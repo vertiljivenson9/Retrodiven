@@ -1,0 +1,2 @@
+export interface WindowState { id: string; appId: string; title: string; isMaximized: boolean; isMinimized: boolean; zIndex: number; icon: string; initialData?: any; }
+export interface OSState { booted: boolean; isLocked: boolean; isOff: boolean; wallpaper: string; windows: WindowState[]; activeWindowId: string | null; githubRepo?: string; githubToken?: string; systemDirty?: boolean; }
